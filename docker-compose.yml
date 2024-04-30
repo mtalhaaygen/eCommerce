@@ -35,14 +35,3 @@ services:
     env_file:
       - .env
     restart: unless-stopped
-
-  # Tailwind CSS için npm servisi
-  # npm:
-  #   container_name: tailwind_container
-  #   image: node:14-slim
-  #   working_dir: /code/frontend
-  #   command: npm run watch
-  #   volumes:
-  #     - ./frontend:/code/frontend
-  #   depends_on:
-  #     - web

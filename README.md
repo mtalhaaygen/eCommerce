@@ -1,6 +1,7 @@
-# eCommerce
+# eCommerce 
+### Django - Postgresql - Tailwindcss
 
-#### the tools we use
+#### tools used
 
 - Docker Compose version v2.24.6-desktop.1
 - node v20.12.2
@@ -10,16 +11,22 @@
     - pgadmin image: dpage/pgadmin4
     - Django FROM python:3.9
 
-`docker compose up`
+#### all you have to do is just
+#### `docker compose up`
+
 
 > 0.0.0.0:8000 django views
 > 0.0.0.0:5050 pgadmin4
 
-##### pgadmin4'e bağlanmak için
+##### connect to pgadmin4
 
-0.0.0.0:5050 adresinden belirlenen mail ve şifre girilir
-pgadmin4 sayfasından bir server oluşturup postgresql_container id si ile bağlanılır
+Enter the e-mail and password specified at 0.0.0.0.0:5050
+Create a server from pgadmin4 page and connect with postgresql_container ip
 
 ![x](1.png)
 
-##### 
+##### for tailwind
+
+For the tailwind classes you wrote to be created in output.css;
+
+`npx tailwindcss -i input.css -o output.css --watch`
