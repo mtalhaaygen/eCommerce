@@ -4,7 +4,4 @@ psycopg2-binary==2.9.3
 sqlparse==0.4.2
 tzdata==2021.5
 python-dotenv==0.21.0 # .env dosyası okumak içn
-django-tailwind>=3.1.0     # Tailwind CSS entegrasyonu
-
-
-
+djangorestframework==3.15

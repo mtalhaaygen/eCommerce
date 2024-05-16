@@ -4,7 +4,7 @@
 #### tools used
 
 - Docker Compose version v2.24.6-desktop.1
-- node v20.12.2
+- node v20.0.0
 - npm v10.5.0
 - images 
     - postgresql image: postgres:14
